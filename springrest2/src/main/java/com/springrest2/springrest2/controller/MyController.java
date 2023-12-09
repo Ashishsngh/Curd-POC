@@ -24,7 +24,7 @@ public class MyController {
 	@Autowired
 	public CourseService courseService;
 	
-	@GetMapping("/home")
+	@GetMapping("/hoome")
 	public String home() {
 		return "this is home";
 	}
